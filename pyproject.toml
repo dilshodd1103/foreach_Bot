@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "oquvmarkazbot"
+version = "0.1.0"
+description = ""
+authors = ["Dilshod <qurbonmurotovd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+environs = "^11.0.0"
+aiogram = ">=2.5,<3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
